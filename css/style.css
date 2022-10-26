@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
 }
 
 /* HEADER BAR */
@@ -9,6 +10,7 @@
 header {
     height: 80px;
     background-color: #ff6900;
+    box-shadow: 3px 3px 5px 2px #777777;
 }
 
 .container-header {
@@ -29,9 +31,40 @@ header {
     align-items: center;
 }
 
-span {
-    padding-right: 5px;
-    color: white;
+.mid {
+    justify-content: center;
 }
 
+.right {
+    justify-content: flex-end;
+}
+
+span {
+    padding-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.boolean-logo {
+    width: 130px;
+    height: 30px;
+}
+
+
+.fa-heart {
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-bag-shopping {
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-user {
+    color: white;
+    cursor: pointer;
+}
 
