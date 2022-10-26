@@ -124,6 +124,18 @@ img {
     font-weight: bold;
 }
 
+.sostenibilità-left-0 {
+    width: 120px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
 .heart {
     position: absolute;
     top: 20px;
@@ -133,14 +145,30 @@ img {
     
 }
 
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .img-hover {
-    
+    opacity: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-hover:hover {
+    opacity: 1;
 }
 
 .deleted-price {
     text-decoration: line-through;
 }
 
+/*FINE MAIN*/
+
+/*COLORI TESTO E BACKGROUND*/
 .green {
     background-color: green;
 }
