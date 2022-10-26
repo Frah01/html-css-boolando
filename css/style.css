@@ -10,11 +10,11 @@
 header {
     height: 80px;
     background-color: #ff6900;
-    box-shadow: 3px 3px 5px 2px #777777;
+    box-shadow: 0px 3px 5px 2px #777777;
 }
 
 .container-header {
-    width: 75%;
+    width: 73%;
     height: 100%;
     margin: 0 auto;
 }
@@ -59,15 +59,27 @@ span {
     cursor: pointer;
 }
 
+.fa-heart:hover {
+    color: red;
+}
+
 .fa-bag-shopping {
     margin-left: 10px;
     color: white;
     cursor: pointer;
 }
 
+.fa-bag-shopping:hover {
+    color: pink;
+}
+
 .fa-user {
     color: white;
     cursor: pointer;
+}
+
+.fa-user:hover {
+    color: black;
 }
 
 /*FINE HEADER*/
@@ -226,4 +238,5 @@ footer{
 
 .fa-brands {
     margin-left: 10px;
+    cursor: pointer;
 }
