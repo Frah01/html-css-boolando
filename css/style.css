@@ -40,9 +40,12 @@ header {
 }
 
 span {
-    padding-right: 10px;
-    color: white;
+    margin-right: 10px;
     font-weight: bold;
+}
+
+.span-header {
+    cursor: pointer;
 }
 
 .boolean-logo {
@@ -53,7 +56,6 @@ span {
 
 .fa-heart {
     margin-left: 10px;
-    color: white;
     cursor: pointer;
 }
 
@@ -66,5 +68,92 @@ span {
 .fa-user {
     color: white;
     cursor: pointer;
+}
+
+/*FINE HEADER*/
+
+/*INIZIO MAIN*/
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    width: calc(100% / 3);
+}
+
+.content {
+    height: 629.11px;
+    background-color: red;
+    margin: 50px 20px;
+    position: relative;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.sconto-50 {
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    
+
+}
+
+.sostenibilità {
+    width: 120px;
+    position: absolute;
+    bottom: 50px;
+    left: 75px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0px; 
+    background-color: white;
+    padding: 5px 15px;
+    
+}
+
+.img-hover {
+    
+}
+
+.deleted-price {
+    text-decoration: line-through;
+}
+
+.green {
+    background-color: green;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.red-text {
+    color: red;
+}
+
+.white {
+    color: white;
 }
 
