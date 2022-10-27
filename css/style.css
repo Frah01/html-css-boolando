@@ -223,15 +223,14 @@ footer{
     width: 100%;
     height: 100px;
     background-color:  #23272a;
+    display: flex;
+    align-items: center;
 }
 
 .row-footer {
-    max-width: 73%;
-    height: 100px;
+    width: 73%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex; 
 }
 
 .footer-mid-column {
