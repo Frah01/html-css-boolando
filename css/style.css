@@ -25,6 +25,16 @@ header {
     display: flex;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
 .header-column{
     width: calc(100% / 3 );
     display: flex;
