@@ -209,7 +209,7 @@ footer{
 }
 
 .row-footer {
-    max-width: 70%;
+    max-width: 73%;
     height: 100px;
     margin: 0 auto;
     display: flex;
@@ -239,4 +239,8 @@ footer{
 .fa-brands {
     margin-left: 10px;
     cursor: pointer;
+}
+
+h3 {
+    font-size: 14px;
 }
