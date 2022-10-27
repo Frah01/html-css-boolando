@@ -37,6 +37,11 @@ ul {
 li {
     margin-right: 10px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(235, 235, 235);
 }
 
 .header-column{
@@ -101,7 +106,9 @@ span {
 
 .container {
     width: 75%;
-    margin: 100px auto;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
     
 }
 
@@ -115,9 +122,7 @@ span {
 }
 
 .content {
-    height: 629.11px;
-    background-color: red;
-    margin: 50px 20px;
+    margin: 10px 20px;
     position: relative;
     
 }
@@ -129,7 +134,7 @@ img {
 .sconto-50 {
     width: 70px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     text-align: center;
     color: white;
     padding: 5px;
@@ -143,7 +148,7 @@ img {
 .sostenibilità {
     width: 120px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 75px;
     text-align: center;
     padding: 5px;
@@ -154,7 +159,7 @@ img {
 .sostenibilità-left-0 {
     width: 120px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 0;
     text-align: center;
     padding: 5px;
